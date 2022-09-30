@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframing</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body class="page">
+    <!-- HEADER -->
+    <header class="page-header">
+      <!-- nav has all links and buttons and we add container class to nav, don`t to new div. If we have separate nav and another separate ul or button - we add separate general div below header header>div>nav+ul-->
+      <nav class="container main-nav">
+        <a class="page-logo" href="./index.html"><img src="./img/logo.svg" alt="logo" />photo</a>
+
+        <ul class="site-nav list">
+          <li class="item"><a class="link current" href="#" aria-current="page">Features</a></li>
+          <li class="item"><a class="link" href="./">Pricing</a></li>
+          <li class="item"><a class="link" href="./">Community</a></li>
+          <li class="item"><a class="link" href="./footer.html">Support</a></li>
+          <li class="item"><a class="link" href="./wireframes.html">Wireframes Body Layouts</a></li>
+          <li class="item"><a class="link" href="./testimonials.html">Testimonials</a></li>
+        </ul>
+
+        <ul class="auth-nav list">
+          <li class="item"><a class="button btn-secondary" href="./">Log in</a></li>
+          <li class="item"><a class="button btn-primary" href="./">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <h1 class="hero-title centered">The largest community of photo enthusiasts</h1>
+        <a class="button btn-primary" href="#">Join Today</a>
+      </section>
+
+      <!--     FEATURES -->
+      <section class="section">
+        <!-- add div.container for limited content (for color, width etc) -->
+        <div class="container">
+          <h2 class="section-title">Snap photos and share like never before</h2>
+          <ul class="features-list list">
+            <!--or features -->
+            <li class="item">
+              <h3 class="title">Lorem, ipsum dolor</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore excepturi
+                molestiae aliquid ullam quia commodi consequatur rerum pariatur veniam?
+              </p>
+              <a class="button btn-secondary" href="#">Learn more</a>
+            </li>
+            <li class="item">
+              <h3 class="title">Lorem, ipsum dolor</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore excepturi
+                molestiae aliquid ullam quia commodi consequatur rerum pariatur veniam?
+              </p>
+              <a class="button btn-secondary" href="#">Learn more</a>
+            </li>
+            <li class="item">
+              <h3 class="title">Lorem, ipsum dolor</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore excepturi
+                molestiae aliquid ullam quia commodi consequatur rerum pariatur veniam?
+              </p>
+              <a class="button btn-secondary" href="#">Learn more</a>
+            </li>
+            <li class="item">
+              <h3 class="title">Lorem, ipsum dolor</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore excepturi
+                molestiae aliquid ullam quia commodi consequatur rerum pariatur veniam?
+              </p>
+              <a class="button btn-secondary" href="#">Learn more</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- EXAMPLE WORKS -->
+      <section class="section no-padding">
+        <div class="container">
+          <h2 class="section-title visually-hidden">Example works</h2>
+          <ul class="work-list list">
+            <li class="item">
+              <img
+                src="./img/rectangle.svg"
+                title="rectangle"
+                alt="rectangle"
+                width="750"
+                height="440"
+              />
+              <div class="content">
+                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                  quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                  porro quisquam est, qui dolorem.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./img/rectangle.svg"
+                title="rectangle"
+                alt="rectangle"
+                width="750"
+                height="440"
+              />
+              <div class="content">
+                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                  quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                  porro quisquam est, qui dolorem.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./img/rectangle.svg"
+                title="rectangle"
+                alt="rectangle"
+                width="750"
+                height="440"
+              />
+              <div class="content">
+                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                  quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                  porro quisquam est, qui dolorem.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./img/rectangle.svg"
+                title="rectangle"
+                alt="rectangle"
+                width="750"
+                height="440"
+              />
+              <div class="content">
+                <h3 class="title">Sed ut perspiciatis unde omnis</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                  quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                  porro quisquam est, qui dolorem.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section">
+        <div class="container testimonials">
+          <h2 class="section-title centered">You’re in good company</h2>
+          <p class="section-description centered">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore
+          </p>
+          <ul class="testimonials-list list">
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/placeholder.svg"
+                  title="logo company"
+                  alt="logo company"
+                  width="173"
+                  height="76"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SIGNUP -->
+      <section class="section">
+        <div class="container signup">
+          <h2 class="section-title visually-hidden">Sign up</h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore
+          </p>
+
+          <div class="content-button">
+            <a class="button btn-primary" href="">Join Today</a>
+            <a class="button btn-secondary" href="">Contact us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards -->
+      <section class="section">
+        <div class="container">
+          <h2 class="visually-hidden">Cards</h2>
+          <ul class="project-cards list">
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/techno.jpg"
+                  title="Лаптоп з зображенням веб-сайту на екрані"
+                  alt="Лаптоп з зображенням веб-сайту на екрані"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Технокряк</h3>
+                <p class="description">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/poster.jpg"
+                  title="Дизайн постеру New Orlean vs Golden Star. Гра двох баскетболістів."
+                  alt="Дизайн постеру New Orlean vs Golden Star. Гра двох баскетболістів."
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p class="description">Дизайн</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/restoraunt.jpg"
+                  title="Логотип додатку ресторану морської їжі"
+                  alt="Логотип додатку ресторану морської їжі"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="description">Додаток</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/prime.jpg"
+                  title="Накладні бездротові чорні навушники"
+                  alt="Накладні бездротові чорні навушники"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Проєкт Prime</h3>
+                <p class="description">Маркетинг</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/boxes.jpg"
+                  title="Дві невеликих дизайнерських коробки: біла та темний беж"
+                  alt="Дві невеликих дизайнерських коробки: біла та темний беж"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Проєкт Boxes</h3>
+                <p class="description">Додаток</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/inspiration.jpg"
+                  title="Веб-сайт на экрані монітору"
+                  alt="Веб-сайт на экрані монітору"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Inspiration has no Border</h3>
+                <p class="description">Веб-сайт</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/magazine.jpg"
+                  title="Розворот журналу"
+                  alt="Розворот журналу"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Видання Limited Edition</h3>
+                <p class="description">Дизайн</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/lab.jpg"
+                  title="Біла бірка з надписом Lab El Tag"
+                  alt="Біла бірка з надписом Lab El Tag"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Проєкт LAB</h3>
+                <p class="description">Маркетинг</p>
+              </a>
+            </li>
+
+            <li class="project-card">
+              <a class="project-card-link link" href="#">
+                <img
+                  src="./images/portfolio/business.jpg"
+                  title="Зображення чоловічих рук, які друкують на клавиатурі ноутбука"
+                  alt="Зображення чоловічих рук, які друкують на клавиатурі ноутбука"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="title">Growing Business</h3>
+                <p class="description">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <ul class="list">
+        <li><a href="">Mobile app</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Company</a></li>
+      </ul>
+
+      <a class="page-logo" href="./index.html"><img src="./img/logo.svg" alt="logo" />photo</a>
+
+      <ul class="list">
+        <li><a href="">Help desk</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Resources</a></li>
+      </ul>
+
+      <ul class="list">
+        <li><a href="" aria-label="Link to Facebook">Facebook</a></li>
+        <li><a href="" aria-label="Link to Instagram">Instagram</a></li>
+        <li><a href="" aria-label="Link to Twitter">Twitter</a></li>
+        <li><a href="" aria-label="Link to LinkedIn">LinkedIn</a></li>
+      </ul>
+
+      <p>&copy; Photo, Inc. <time datetime="2019-01-01">2019.</time> We love our users!</p>
+    </footer>
+  </body>
+</html>
