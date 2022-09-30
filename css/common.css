@@ -1,0 +1,78 @@
+/* title text-color: #000000; 
+primary text-color: rgba(0, 0, 0, 0.8);
+accent: #18A0FB;
+white color: #ffffff;
+secondary bg-color: #F5F5F5;
+*/
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+body.page {
+  /* always write bg-color */
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* if all tittle has same font => write all h and font-family 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Comfortaa', cursive;
+}
+*/
+
+/* замість ul встановлюємо окремий клас list і додаємо, де потрібно */
+.list {
+  list-style: none;
+}
+
+/* in button always write font-family: inherit; */
+
+/* замість тега a встановлюємо окремий клас link і додаємо, де потрібно; пізніше в деяких класах link змінимо на button, так як зробимо посилання кнопками */
+.link {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+/* for current page */
+.site-nav .link.current {
+  color: var(--primary-text-color);
+}
+
+/* site nav */
+.page-logo {
+  color: var(--title-text-color);
+
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.page-logo:hover {
+  color: var(--accent-color);
+}
